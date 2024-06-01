@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-family: "Markazi Text", serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f8f7f7;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+nav {
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #f8f7f7;
+}
+
+ul {
+  width: 100%;
+  padding: 12px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+li {
+  list-style: none;
+}
+
+.Links {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.Hero-wrapper {
+  width: 100%;
+  height: 506px;
+  background: #495e57;
+}
+.Hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  flex-shrink: 0;
+}
+
+.Hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: -24px;
+}
+
+.Hero-content h3 {
+  color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  margin: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  height: 80px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Hero-content span {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 0%;
+}
+.Hero-content P {
+  width: 447px;
+  height: 79px;
+  flex-shrink: 0;
+  margin-top: 0%;
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%; /* 28.125px */
+}
+
+.Hero-img img {
+  width: 380px;
+  height: 574.135px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f4ce14;
+  border: none;
+  line-height: normal;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button a {
+  border: none;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.Menu-wrapper {
+  width: 100%;
+}
+.Menu {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.Menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.Menu-header h3 {
+  width: 399px;
+  color: #333;
+  font-family: "Markazi Text", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.Menu-card {
+  background: #edefee;
+  border-radius: 16px 16px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.card-img img {
+  width: 265px;
+  height: 186px;
+  border-radius: 16px 16px 0px 0px;
+  flex-shrink: 0;
+}
+
+.card-content {
+  padding: 16px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-header h4 {
+  color: #333;
+  /* Card_title */
+  font-family: "Markazi Text", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90%; /* 21.6px */
+}
+.card-header span {
+  color: #ee9972;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.card-text p {
+  color: #495e57;
+  width: 216.736px;
+  height: 120.286px;
+  flex-shrink: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-text .option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: #333;
+  /* Nav_Link */
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*FOOTER*/
+footer {
+  padding: 32px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 162px;
+  height: 279px;
+  flex-shrink: 0;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link h4 {
+  color: #495e57;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-link li {
+  list-style: none;
+  color: #333;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 26px */
+}
+/*FORM*/
+.FORM {
+  background-color: #495e57;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Form-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 36px;
+}
+.customer-details,
+.reservation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.customer-details {
+  border-right: 1px solid #fff;
+  padding-right: 180px;
+}
+.customer-details h3,
+.reservation h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+.form {
+  width: 320px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form input {
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  padding: 4px;
+}
+.radio-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.radio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.proceed {
+  align-self: self-end;
+}
+
+/*CONFIRMATION*/
+
+.Confirmation_Container {
+  background-image: url("restaurant.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background: #495e57;
+  border-radius: 16px;
+  width: 600px;
+  padding: 20px;
+  padding-top: 36px;
+}
+.title {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  gap: 0;
+}
+.title h2 {
+  font-family: "Karla", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: normal;
+  margin: 0;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.title p {
+  font-family: "Karla", sans-serif;
+  line-height: normal;
+  margin: 0;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.Confirmation_Container .customer-details {
+  padding-bottom: 48px;
+  padding-right: 0px;
+  border: 0;
+  border-right: 0px;
+  border-bottom: 1px solid #f4ce14;
+  border-style: dashed;
+}
+.Confirmation_Container .reservation {
+  margin-top: 36px;
+}
+.Confirmation_Container .customer-details,
+.Confirmation_Container .reservation {
+  align-items: flex-start;
+}
+
+.customer-details h5,
+.reservation h5 {
+  font-family: "Karla", sans-serif;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.Confirmation_Container span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: normal;
+  /*margin-bottom: 12px;*/
+}
+span p{
+  line-height: normal;
+  font-size: 24px;
+}
+.content button{
+  align-self: center;
+}
+.label{
+  color: #f8f7f7;
+}
+
+/*RESPONSIVENESS*/
+@media screen and (max-width: 600px) {
+  .Form-wrapper {
+    flex-direction: column;
+  }
+  .customer-details {
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    padding-right: 0px;
+    padding-bottom: 60px;
+  }
+}
